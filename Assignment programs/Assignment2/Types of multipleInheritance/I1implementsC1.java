@@ -6,6 +6,7 @@ class C1{
     }
 }
 // ERROR: An interface cannot implement a class
+// An interface cannot create a object
 interface I1 implements C1{
     void show1();
 }
