@@ -4,10 +4,10 @@ class Functions{
         if(num==0) {
             System.out.println("the enterd number'0'cannot be determined whether it is even or odd");
         }
-        else if(num%2==0) {
+        else if(num%2==0) { // if a number is divisible by 2 it is even number
             System.out.println("the given number"+num+" is  even");
         }
-        else
+        else  // if a number is  not divisible by 2 it is odd number
             System.out.println("the given number"+num+" is  odd");
 
     }
@@ -20,6 +20,7 @@ class Functions{
             return c;
         }
     }
+ //  check the grade with percentage
     void displayGrade(double percentage) {
         if (percentage >= 90) {
             System.out.println("Grade: A+");
@@ -36,6 +37,7 @@ class Functions{
         }
     }
 
+// display the day using switch case
     void displayDay(int day) {
         switch (day) {
             case 1:
