@@ -135,8 +135,8 @@ public class Library {
         f.display();
         System.out.println("\n METHOD OVERLOADING");
         Area a = new Area();
-        a.area(5.0);       
-        a.area(10, 20);    
+        a.area(5.0);
+        a.area(10, 20);
         System.out.println("\n METHOD OVERRIDING");
         Vehicle v1 = new Car();
         Vehicle v2 = new Bike();
@@ -152,4 +152,4 @@ public class Library {
         p.print();
     }
 }
-	
+
