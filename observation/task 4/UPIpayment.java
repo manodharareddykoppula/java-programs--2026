@@ -117,9 +117,9 @@ public class DigitalPayment {
 
 	        // Create wallet
 	        Wallet wallet = new Wallet(
-	                "Rahul",
-	                "9876543210",
-	                "rahul@upi",
+	                "Rahulgandhi",
+	                "9876512340",
+	                "rahulgandhi@upi",
 	                5000
 	        );
 	        // Create UPIPayment object
@@ -136,7 +136,7 @@ public class DigitalPayment {
 	        payment.checkBalance();
 	        // Make payment
 	        try {
-	            payment.pay("arun@upi", 1500);
+	            payment.pay("arungopi@upi", 1500);
 	            System.out.println("Transaction completed successfully.");
 	        }
 	        catch (InvalidUPIException e) {
